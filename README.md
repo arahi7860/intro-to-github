@@ -6,7 +6,7 @@
 
 GitHub is one of the backbones of the industry. It will become one of your most-visited websites in no time, so let's use our work from the Intro to Git Lesson to explore it a little more.
 
-By now, you've surely heard all the GitHub keywords– local versus remote repositories; forking, cloning, branching, and stashing; pull requests, merging, and merge conflicts; issues; wikis; projects; tags, shields...
+By now, you've probably heard all the GitHub keywords– local versus remote; forking, cloning, branching, and stashing; pull requests, merging, and merge conflicts; issues; wikis; projects; tags, shields
 
 By the end of this lesson, you will be a little more comfortable with:
 
@@ -157,3 +157,32 @@ Now, working with a partner, follow the above examples just did and take turns: 
 and vice versa.
 
 </details>
+
+
+<p align="center">
+  <a href="#">
+    <img src="" alt="The Belchers" width="550px"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="#">
+    <img src="https://media4.giphy.com/media/5xaOcLvAkw7eGmcfL56/giphy.gif" alt="The Belchers" width="550px"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="#">
+    <img src="https://38.media.tumblr.com/918a77987a184f9a7080261f03da7b6c/tumblr_n6zqemGgt81ttpk7to1_500.gif" alt="The Belchers" width="550px"/>
+  </a>
+</p>
+<p align="center">
+  <a href="#">
+    <img src="https://i2.wp.com/media3.giphy.com/media/5ZbHoMVhHMOVq/giphy.gif" alt="The Belchers" width="550px"/>
+  </a>
+</p>
+<p align="center">
+  <a href="#">
+    <img src="https://i.imgur.com/iKcMjxB.gif" alt="The Belchers" width="550px"/>
+  </a>
+</p>
