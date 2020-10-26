@@ -28,6 +28,12 @@ By the end of this lesson, you will be a little more comfortable with:
 
 We've already learned about git and created a _local_ repository, but what about a _remote_ repository?
 
+<p align="center">
+  <a href="#">
+    <img src="https://i.imgur.com/iKcMjxB.gif" alt="The Belchers" width="550px"/>
+  </a>
+</p>
+
 First, we should clarify: GitHub **did not** create git. Git was created by
 Linus Torvald (the same guy who created Linux) and is an open source project.
 GitHub is a Software-as-a-Service product built around git.
@@ -41,12 +47,6 @@ To work with GitHub, we'll need the following commands:
 | `git remote` | adds a remote repository to a local repository |
 | `git push`   | pushes local changes to the remote repository  |
 | `git pull`   | pulls changes from a remote repository         |
-
-<p align="center">
-  <a href="#">
-    <img src="https://i.imgur.com/iKcMjxB.gif" alt="The Belchers" width="550px"/>
-  </a>
-</p>
 
 #### Remote Repositories
 
