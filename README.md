@@ -16,17 +16,15 @@ By now, you've probably heard all the GitHub keywords, at least in passing– l
 
 By the end of this lesson, you will be a little more comfortable with:
 
-- The GitHub UI (user interface).
-- Forking and cloning a _remote_ repository.
-- Syncing _local_ and _remote_ repositories.
-- Collaborating with teams and colleagues on the same project.
-- Opening _pull requests_ (how we submit homework).
-- _Merging_ branches.
-- Handling merge _conflicts_.
+-   The GitHub UI (user interface).
+-   Forking and cloning a _remote_ repository.
+-   Syncing _local_ and _remote_ repositories.
+-   Collaborating with teams and colleagues on the same project.
+-   Opening _pull requests_ (how we submit homework).
 
 <br>
 
-### Overview
+## Working with GitHub
 
 We've already learned about git and created a _local_ repository, but what about a _remote_ repository?
 
@@ -35,6 +33,20 @@ We've already learned about git and created a _local_ repository, but what about
     <img src="https://i.imgur.com/iKcMjxB.gif" alt="The Belchers" width="550px"/>
   </a>
 </p>
+
+First, we should clarify: GitHub **did not** create git. Git was created by
+Linus Torvald (the same guy who created Linux) and is an open source project.
+GitHub is a Software-as-a-Service product built around git.
+
+Developers use GitHub for everything (which is why we use it for everything).
+
+To work with GitHub, we'll need the following commands:
+
+| Command      | Description                                    |
+| ------------ | ---------------------------------------------- |
+| `git remote` | adds a remote repository to a local repository |
+| `git push`   | pushes local changes to the remote repository  |
+| `git pull`   | pulls changes from a remote repository         |
 
 #### Remote Repositories
 
@@ -58,13 +70,13 @@ For these reasons, it's become integral to collaboration, and most software engi
 
 #### Create a Remote Repository
 
-- Open your GitHub Enterprise.
-- Click the plus sign in the menu and select "new repository." _What does the new repo screen allow you to do?_
+-   Open your GitHub Enterprise.
+-   Click the plus sign in the menu and select "new repository." _What does the new repo screen allow you to do?_
 
 ![new repo](new-repo-1.png)
 
-- For clarity, we'll enter the same name that we used for our local version– `bobs-burgers`– but know that your local and remote repositories don't need to match exactly.
-- We'll set it to `public` and we won't initialize with a README or a `.gitignore`, since we already have those in our local repo.
+-   For clarity, we'll enter the same name that we used for our local version– `bobs-burgers`– but know that your local and remote repositories don't need to match exactly.
+-   We'll set it to `public` and we won't initialize with a README or a `.gitignore`, since we already have those in our local repo.
 
 #### Connect Your Local Repository
 
@@ -74,11 +86,11 @@ Once you create a fresh, empty remote repository, you'll see this screen:
 
 We already have our local repository, so we'll use **the third option**, "push an existing repository from the command line."
 
-- Copy the **first** line under this option.
-- Open Terminal, and confirm you're in the correct repo with `pwd`.
-- First, run `git remote -v`. _What does it say?_
-- Now paste the command into terminal and hit enter.
-- Run `git remote -v` again. _What did these commands do?_
+-   Copy the **first** line under this option.
+-   Open Terminal, and confirm you're in the correct repo with `pwd`.
+-   First, run `git remote -v`. _What does it say?_
+-   Now paste the command into terminal and hit enter.
+-   Run `git remote -v` again. _What did these commands do?_
 
 Boom, it's connected... But we still can't see our files on GitHub, right?
 
@@ -86,7 +98,7 @@ Now, let's grab that second line, and run it as well. _What just happened?_
 
 <br>
 
-***
+---
 
 ### Some Explanations
 
@@ -128,23 +140,21 @@ With each project, you'll often utilize _dependencies_ that are automatically in
 
 Remember running `npm i` on your first homework? This is because we needed a testing dependency that is installed on your project in what's called `node modules`. By ignoring these, it separates concerns about dependencies, including local environment variations, from the project itself.
 
-<br> 
+<br>
 
-***
+---
 
 ### Recap
 
 Your most common git flow– and how you will get, complete, and submit your homework – will look like this:
 
-- `fork`
-- `clone`
-- Make changes to a file.
-- `git add <filename>` or `git add .`
-- `git commit -m "with a commit message"`
-- `git push <remote name> <branch name>`
-- Then go to GitHub and `create pull request`.
-
-What does this all look like, visually? If we have time, we'll check out the _working tree_ on a larger project using GitKraken, a desktop client.
+-   `fork`
+-   `clone`
+-   Make changes to a file.
+-   `git add <filename>` or `git add .`
+-   `git commit -m "with a commit message"`
+-   `git push <remote name> <branch name>`
+-   Then go to GitHub and `create pull request`.
 
 <br>
 
@@ -182,8 +192,7 @@ But soon enough, it will become second nature, and on that day, you'll love it.
   </a>
 </p>
 
-
-***
+---
 
 ### Want more practice?
 
@@ -199,8 +208,8 @@ The last time we saw the Belcher family, Linda went to the dinner theater. Let's
   </a>
 </p>
 
-- Create a `gene.txt` file and add: `This is me now!`.
-- Add, commit, and push this file to GitHub.
+-   Create a `gene.txt` file and add: `This is me now!`.
+-   Add, commit, and push this file to GitHub.
 
 #### And Louise too!
 
@@ -215,10 +224,10 @@ The last time we saw the Belcher family, Linda went to the dinner theater. Let's
 
 This time, let's use GitHub.
 
-- Go to your remote `bobs-burgers` repo on GitHub and click on "create new file".
-- Create a `louise.txt` file.
-- Add `You could sell your soul! I did, and look at me... I'm fine.`
-- Commit the file.
+-   Go to your remote `bobs-burgers` repo on GitHub and click on "create new file".
+-   Create a `louise.txt` file.
+-   Add `You could sell your soul! I did, and look at me... I'm fine.`
+-   Commit the file.
 
 Return to your local repo, and this time, pull down the code.
 
